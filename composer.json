@@ -1,5 +1,5 @@
 {
-    "name": "valantic-spryker/example-package",
+    "name": "valantic-spryker/customer-group",
     "type": "library",
     "description": "Adds customer group delete plugins to customer-group module.",
     "require": {
