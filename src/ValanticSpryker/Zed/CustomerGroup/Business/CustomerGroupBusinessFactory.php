@@ -30,7 +30,7 @@ class CustomerGroupBusinessFactory extends SprykerCustomerGroupBusinessFactory
     /**
      * @return array<\ValanticSpryker\Zed\CustomerGroup\Dependency\Plugin\CustomerGroupDeleteEventPluginInterface>
      */
-    private function getCustomerGroupDeleteEventPlugins(): array
+    public function getCustomerGroupDeleteEventPlugins(): array
     {
         return $this->getProvidedDependency(CustomerGroupDependencyProvider::PLUGINS_CUSTOMER_GROUP_DELETE);
     }
