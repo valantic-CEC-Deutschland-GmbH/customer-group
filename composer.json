@@ -2,6 +2,7 @@
     "name": "valantic-spryker/customer-group",
     "type": "library",
     "description": "Adds customer group delete plugins to customer-group module.",
+    "license": "proprietary",
     "require": {
         "php": ">=8.0",
         "spryker/customer-group": "^2.6",
